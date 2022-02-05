@@ -100,3 +100,15 @@ h1 {
     text-align: center;
     color:red;
   }
+
+  @media only screen and (max-width: 991px) 
+  { 
+    #filename
+    {
+      width:100%;
+    }
+    #download
+    {
+      margin-top:20px;
+    }
+  }
