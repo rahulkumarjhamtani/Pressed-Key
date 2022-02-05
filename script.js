@@ -3,7 +3,7 @@ const input = document.getElementById("text");
 
 input.addEventListener("keydown", e => {
     const keyname = e.key;
-    const msg = `${keyname}`;
+    const msg = `${keyname} is pressed`;
     output.style.color = "green";
     output.innerText = msg;
 })

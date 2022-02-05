@@ -8,21 +8,21 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: #044b82;
+    background-color: #3e5c76;
     font-family: "Kanit", Verdana, Arial, sans-serif;
   }
   
   .container {
     width: 430px;
     padding: 40px 20px;
-    background: white;
+    background: #0d1321;
   }
 
 h1 {
-    color: #0773d7;
+    color: #748cab;
     font-size: 30px;
     width: 100%;
-    margin-top: 10vh;
+    margin-top: 3vh;
     margin-bottom: 30px;
     text-align: center;
     text-transform: uppercase;
@@ -32,7 +32,7 @@ h1 {
     display: block;
     width: 100%;
     background-color: transparent;
-    color: #021652;
+    color: #f0ebd8;
     border: 2px solid #3ba9f4;
     border-radius: 2px;
     resize: none;
@@ -40,23 +40,25 @@ h1 {
     height: 200px;
     padding: 10px;
     font-size: 20px;
+    font-family: Verdana;
   }
-
+  
   #filename {
     width: calc(100% - 200px);
     border: 2px solid #3ba9f4;
     border-radius: 2px;
     background-color: transparent;
-    color: #052a53;
+    color: #f0ebd8;
     padding: 0 10px;
     height: 50px;
     line-height: 50px;
     font-size: 20px;
     margin-right: 20px;
+    font-family: Verdana;
   }
-
+  
   #download {
-    background-color: #3ba9f4;
+    background-color: #1d2d44;
     color: #fff;
     font-size: 20px;
     height: 50px;
@@ -64,6 +66,12 @@ h1 {
     border-radius: 2px;
     width: 174px;
     cursor: pointer;
+    transition: background-color 0.3s;
+  }
+
+  #download:hover
+  {
+    background-color:#112035;
   }
 
   #key
