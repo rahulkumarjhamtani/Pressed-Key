@@ -8,12 +8,33 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: #3e5c76;
+    background: rgb(62,92,118);
+    background: radial-gradient(circle, rgba(62,92,118,1) 32%, rgba(29,45,68,1) 100%);
     font-family: "Kanit", Verdana, Arial, sans-serif;
+  }
+
+  /* width */
+  ::-webkit-scrollbar {
+    width: 7px;
+  }
+
+/* Track */
+  ::-webkit-scrollbar-track {
+    background: none; 
+  }
+ 
+/* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: rgba(62,92,118,1); 
+  }
+
+/* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: rgb(37, 56, 83); 
   }
   
   .container {
-    width: 430px;
+    width: 40%;
     padding: 40px 20px;
     background: #0d1321;
   }
