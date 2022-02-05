@@ -41,3 +41,27 @@ h1 {
     padding: 10px;
     font-size: 20px;
   }
+
+  #filename {
+    width: calc(100% - 200px);
+    border: 2px solid #3ba9f4;
+    border-radius: 2px;
+    background-color: transparent;
+    color: #052a53;
+    padding: 0 10px;
+    height: 50px;
+    line-height: 50px;
+    font-size: 20px;
+    margin-right: 20px;
+  }
+
+  #download {
+    background-color: #3ba9f4;
+    color: #fff;
+    font-size: 20px;
+    height: 50px;
+    border: none;
+    border-radius: 2px;
+    width: 174px;
+    cursor: pointer;
+  }
