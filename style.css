@@ -15,17 +15,19 @@
 
   /* width */
   ::-webkit-scrollbar {
-    width: 7px;
+    width: 8px;
   }
 
 /* Track */
   ::-webkit-scrollbar-track {
     background: none; 
+    border-radius: 10px;
   }
  
 /* Handle */
   ::-webkit-scrollbar-thumb {
     background: rgba(62,92,118,1); 
+    border-radius: 10px;
   }
 
 /* Handle on hover */
@@ -35,7 +37,7 @@
   
   .container {
     width: 40%;
-    padding: 40px 20px;
+    padding: 35px 35px;
     background: #0d1321;
   }
 
@@ -76,6 +78,7 @@ h1 {
     font-size: 20px;
     margin-right: 20px;
     font-family: Verdana;
+    letter-spacing: 1px;
   }
   
   #download {
@@ -98,7 +101,7 @@ h1 {
   #key
   {
     text-align: center;
-    color:red;
+    color:rgb(250, 95, 95);
   }
 
   @media only screen and (max-width: 991px) 

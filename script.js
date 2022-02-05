@@ -3,8 +3,8 @@ const input = document.getElementById("text");
 
 input.addEventListener("keydown", e => {
     const keyname = e.key;
-    const msg = `${keyname} is pressed`;
-    output.style.color = "green";
+    const msg = `${keyname} is Pressed`;
+    output.style.color = "rgb(93, 252, 93)";
     output.innerText = msg;
 })
 
