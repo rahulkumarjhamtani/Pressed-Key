@@ -2,7 +2,12 @@ const output = document.getElementById("key");
 const input = document.getElementById("text");
 
 input.addEventListener("keydown", e => {
-    const keyname = e.key;
+    var keyname = e.key;
+    const unicode= e.keyCode;
+    if(unicode==32)
+    {
+      keyname="Space";
+    }
     const msg = `${keyname} is Pressed`;
     output.style.color = "rgb(93, 252, 93)";
     output.innerText = msg;
