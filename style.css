@@ -65,3 +65,9 @@ h1 {
     width: 174px;
     cursor: pointer;
   }
+
+  #key
+  {
+    text-align: center;
+    color:red;
+  }
